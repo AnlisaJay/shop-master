@@ -1,0 +1,39 @@
+.personal-account-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+  }
+  
+  .user-info p {
+    margin: 10px 0;
+  }
+  
+  .change-password-form input[type="password"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: calc(100% - 16px);
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .change-password-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .change-password-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

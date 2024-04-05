@@ -1,0 +1,66 @@
+.ModalBox {
+    width: 90%; /* Ширина 90% от ширины экрана */
+    max-width: 400px; /* Максимальная ширина 400px */
+    height: auto;
+    min-height: 150px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+}
+
+.ModalBox h1 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ModalBox input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #a6a6a6;
+}
+
+.ModalBox input::placeholder {
+    padding-left: 5px;
+    color: #999;
+}
+
+.ModalBox button {
+    width: 40%;
+    height: 30px;
+    background-color:rgb(160, 212, 241);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ModalBox button:hover {
+    background-color: rgb(138, 206, 242);
+}
+
+.echo {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+  
+.success-message {
+    color: green; 
+    margin-top: 10px; 
+    align-self: flex-start; 
+}
